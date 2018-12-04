@@ -1,0 +1,243 @@
+Calling "A:\Program Files\JBoss\EAP-7.1.0\bin\standalone.conf.bat"
+Setting JAVA property to "A:\Program Files\Java\jdk-9.0.4\bin\java"
+===============================================================================
+
+  JBoss Bootstrap Environment
+
+  JBOSS_HOME: "A:\Program Files\JBoss\EAP-7.1.0"
+
+  JAVA: "A:\Program Files\Java\jdk-9.0.4\bin\java"
+
+  JAVA_OPTS: "-Dprogram.name=standalone.bat -Xms1G -Xmx1G -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman"
+
+===============================================================================
+
+12:47:28,957 INFO  [org.jboss.modules] (main) JBoss Modules version 1.6.0.Final-redhat-1
+12:47:29,172 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.7.SP1-redhat-1
+12:47:29,268 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0049: JBoss EAP 7.1.0.GA (WildFly Core 3.0.10.Final-redhat-1) starting
+12:47:29,986 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+12:47:29,998 INFO  [org.wildfly.security] (ServerService Thread Pool -- 12) ELY00001: WildFly Elytron version 1.1.7.Final-redhat-1
+12:47:30,004 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 8) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+12:47:30,103 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+12:47:30,113 INFO  [org.xnio] (MSC service thread 1-5) XNIO version 3.5.4.Final-redhat-1
+12:47:30,116 INFO  [org.xnio.nio] (MSC service thread 1-5) XNIO NIO Implementation Version 3.5.4.Final-redhat-1
+12:47:30,139 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 41) WFLYIO001: Worker 'default' has auto-configured to 16 core threads with 128 task threads based on your 8 available processors
+12:47:30,136 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 58) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+12:47:30,141 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 43) WFLYRS0016: RESTEasy version 3.0.24.Final-redhat-1
+12:47:30,143 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 57) WFLYSEC0002: Activating Security Subsystem
+12:47:30,151 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 50) WFLYNAM0001: Activating Naming Subsystem
+12:47:30,152 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 60) WFLYWS0002: Activating WebServices Extension
+12:47:30,154 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 48) WFLYJSF0007: Activated the following JSF Implementations: [main]
+12:47:30,155 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 42) WFLYCLINF0001: Activating Infinispan subsystem.
+12:47:30,161 INFO  [org.jboss.as.security] (MSC service thread 1-8) WFLYSEC0001: Current PicketBox version=5.0.2.Final-redhat-1
+12:47:30,162 INFO  [org.jboss.as.connector] (MSC service thread 1-2) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.6.Final-redhat-1)
+12:47:30,185 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+12:47:30,252 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0003: Undertow 1.4.18.Final-redhat-2 starting
+12:47:30,256 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = h2
+12:47:30,258 INFO  [org.jboss.as.naming] (MSC service thread 1-8) WFLYNAM0003: Starting Naming Service
+12:47:30,269 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-8) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+12:47:30,295 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 5.0.5.Final-redhat-1
+12:47:30,345 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+12:47:30,346 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+12:47:30,387 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 59) WFLYUT0014: Creating file handler for path 'A:\Program Files\JBoss\EAP-7.1.0/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+12:47:30,392 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0012: Started server default-server.
+12:47:30,393 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0018: Host default-host starting
+12:47:30,424 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTP listener default listening on 0.0.0.0:8080
+12:47:30,479 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0493: EJB subsystem suspension complete
+12:47:30,517 INFO  [org.jboss.as.patching] (MSC service thread 1-8) WFLYPAT0050: JBoss EAP cumulative patch ID is: base, one-off patches include: none
+12:47:30,526 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-3) WFLYDM0111: Keystore A:\Program Files\JBoss\EAP-7.1.0\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+12:47:30,528 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-6) WFLYDS0013: Started FileSystemDeploymentService for directory A:\Program Files\JBoss\EAP-7.1.0\standalone\deployments
+12:47:30,536 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+12:47:30,536 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "cdilab.war" (runtime-name: "cdilab.war")
+12:47:30,586 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTPS listener https listening on 0.0.0.0:8443
+12:47:30,638 INFO  [org.jboss.ws.common.management] (MSC service thread 1-2) JBWS022052: Starting JBossWS 5.1.9.Final-redhat-1 (Apache CXF 3.1.12.redhat-1) 
+12:47:30,803 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) WFLYJPA0002: Read persistence.xml for primary
+12:47:30,862 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 62) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'cdilab.war#primary'
+12:47:30,879 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 62) HHH000204: Processing PersistenceUnitInfo [
+	name: primary
+	...]
+12:47:30,899 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment cdilab.war
+12:47:30,932 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 62) HHH000412: Hibernate Core {5.1.10.Final-redhat-1}
+12:47:30,933 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 62) HHH000206: hibernate.properties not found
+12:47:30,935 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 62) HHH000021: Bytecode provider name : javassist
+12:47:30,936 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-3) HV000001: Hibernate Validator 5.3.5.Final-redhat-2
+12:47:30,967 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 62) HCANN000001: Hibernate Commons Annotations {5.0.1.Final-redhat-2}
+12:47:30,999 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'ServiceBean' in deployment unit 'deployment "cdilab.war"' are as follows:
+
+	java:global/cdilab/ServiceBean!eapcourse.ejb.ServiceBean
+	java:app/cdilab/ServiceBean!eapcourse.ejb.ServiceBean
+	java:module/ServiceBean!eapcourse.ejb.ServiceBean
+	java:global/cdilab/ServiceBean
+	java:app/cdilab/ServiceBean
+	java:module/ServiceBean
+
+12:47:31,147 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-7) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.8.Final-redhat-1
+12:47:31,181 INFO  [org.jboss.weld.Version] (MSC service thread 1-5) WELD-000900: 2.4.3 (redhat)
+12:47:31,345 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 63) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'cdilab.war#primary'
+12:47:31,416 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 62) WFLYCLINF0002: Started client-mappings cache from ejb container
+12:47:31,525 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 63) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+12:47:31,530 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 63) HHH000431: Unable to determine H2 database version, certain features may not work
+12:47:31,584 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 63) Envers integration enabled? : true
+12:47:31,872 INFO  [org.hibernate.tool.schema.internal.SchemaCreatorImpl] (ServerService Thread Pool -- 63) HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@5275740b'
+12:47:32,261 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 63) Initializing Mojarra 2.2.13.SP4  for context '/cdilab'
+12:47:32,582 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 63) WFLYUT0021: Registered web context: '/cdilab' for server 'default-server'
+12:47:32,590 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 37) WFLYSRV0010: Deployed "cdilab.war" (runtime-name : "cdilab.war")
+12:47:32,629 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+12:47:32,630 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://0.0.0.0:9990/management
+12:47:32,631 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://0.0.0.0:9990
+12:47:32,631 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: JBoss EAP 7.1.0.GA (WildFly Core 3.0.10.Final-redhat-1) started in 3927ms - Started 445 of 671 services (353 services are lazy, passive or on-demand)
+12:47:33,360 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (default task-1) HHH000397: Using ASTQueryTranslatorFactory
+12:47:38,030 INFO  [stdout] (default task-3) Calling ServiceBean.put operation.
+12:47:38,030 INFO  [stdout] (default task-3) Property = SimpleProperty [key=a, value=a]
+12:47:38,030 WARNING [javax.enterprise.resource.webcontainer.jsf.lifecycle] (default task-3) java.lang.NullPointerException: javax.el.ELException: java.lang.NullPointerException
+	at org.glassfish.javax.el//com.sun.el.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:187)
+	at org.glassfish.javax.el//com.sun.el.parser.AstValue.invoke(AstValue.java:289)
+	at org.glassfish.javax.el//com.sun.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:304)
+	at org.jboss.weld.core//org.jboss.weld.util.el.ForwardingMethodExpression.invoke(ForwardingMethodExpression.java:40)
+	at org.jboss.weld.core//org.jboss.weld.el.WeldMethodExpression.invoke(WeldMethodExpression.java:50)
+	at org.jboss.weld.core//org.jboss.weld.util.el.ForwardingMethodExpression.invoke(ForwardingMethodExpression.java:40)
+	at org.jboss.weld.core//org.jboss.weld.el.WeldMethodExpression.invoke(WeldMethodExpression.java:50)
+	at javax.faces.api//javax.faces.event.MethodExpressionActionListener.processAction(MethodExpressionActionListener.java:149)
+	at javax.faces.api//javax.faces.event.ActionEvent.processListener(ActionEvent.java:88)
+	at javax.faces.api//javax.faces.component.UIComponentBase.broadcast(UIComponentBase.java:814)
+	at javax.faces.api//javax.faces.component.UICommand.broadcast(UICommand.java:300)
+	at javax.faces.api//javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:790)
+	at javax.faces.api//javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1282)
+	at com.sun.jsf-impl//com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:81)
+	at com.sun.jsf-impl//com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.jsf-impl//com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:198)
+	at javax.faces.api//javax.faces.webapp.FacesServlet.service(FacesServlet.java:658)
+	at io.undertow.servlet//io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet//io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet//io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow//org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.core//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet//io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet//io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.core//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.core//io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet//io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.core//io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet//io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.core//io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.core//io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.core//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow//org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.core//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow//org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.core//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet//io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet//io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet//io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet//io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet//io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet//io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow//org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1508)
+	at org.wildfly.extension.undertow//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1508)
+	at org.wildfly.extension.undertow//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1508)
+	at org.wildfly.extension.undertow//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1508)
+	at org.wildfly.extension.undertow//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1508)
+	at io.undertow.servlet//io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet//io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet//io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.core//io.undertow.server.Connectors.executeRootHandler(Connectors.java:326)
+	at io.undertow.core//io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:812)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.lang.NullPointerException
+	at deployment.cdilab.war//eapcourse.ejb.ServiceBean.put(ServiceBean.java:20)
+	at deployment.cdilab.war//eapcourse.bean.BeanManager.save(BeanManager.java:38)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.glassfish.javax.el//com.sun.el.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:181)
+	... 55 more
+
+12:47:38,032 ERROR [io.undertow.request] (default task-3) UT005023: Exception handling request to /cdilab/index.xhtml: javax.servlet.ServletException
+	at javax.faces.api//javax.faces.webapp.FacesServlet.service(FacesServlet.java:671)
+	at io.undertow.servlet//io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet//io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet//io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow//org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.core//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet//io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet//io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.core//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.core//io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet//io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.core//io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet//io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.core//io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.core//io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.core//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow//org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.core//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow//org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.core//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet//io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet//io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet//io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet//io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet//io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet//io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow//org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1508)
+	at org.wildfly.extension.undertow//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1508)
+	at org.wildfly.extension.undertow//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1508)
+	at org.wildfly.extension.undertow//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1508)
+	at org.wildfly.extension.undertow//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1508)
+	at io.undertow.servlet//io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet//io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet//io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.core//io.undertow.server.Connectors.executeRootHandler(Connectors.java:326)
+	at io.undertow.core//io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:812)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.lang.NullPointerException
+	at deployment.cdilab.war//eapcourse.ejb.ServiceBean.put(ServiceBean.java:20)
+	at deployment.cdilab.war//eapcourse.bean.BeanManager.save(BeanManager.java:38)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.glassfish.javax.el//com.sun.el.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:181)
+	at org.glassfish.javax.el//com.sun.el.parser.AstValue.invoke(AstValue.java:289)
+	at org.glassfish.javax.el//com.sun.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:304)
+	at org.jboss.weld.core//org.jboss.weld.util.el.ForwardingMethodExpression.invoke(ForwardingMethodExpression.java:40)
+	at org.jboss.weld.core//org.jboss.weld.el.WeldMethodExpression.invoke(WeldMethodExpression.java:50)
+	at org.jboss.weld.core//org.jboss.weld.util.el.ForwardingMethodExpression.invoke(ForwardingMethodExpression.java:40)
+	at org.jboss.weld.core//org.jboss.weld.el.WeldMethodExpression.invoke(WeldMethodExpression.java:50)
+	at javax.faces.api//javax.faces.event.MethodExpressionActionListener.processAction(MethodExpressionActionListener.java:149)
+	at javax.faces.api//javax.faces.event.ActionEvent.processListener(ActionEvent.java:88)
+	at javax.faces.api//javax.faces.component.UIComponentBase.broadcast(UIComponentBase.java:814)
+	at javax.faces.api//javax.faces.component.UICommand.broadcast(UICommand.java:300)
+	at javax.faces.api//javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:790)
+	at javax.faces.api//javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1282)
+	at com.sun.jsf-impl//com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:81)
+	at com.sun.jsf-impl//com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.jsf-impl//com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:198)
+	at javax.faces.api//javax.faces.webapp.FacesServlet.service(FacesServlet.java:658)
+	... 39 more
+
+12:48:11,561 INFO  [org.jboss.as.server] (Thread-1) WFLYSRV0220: Server shutdown has been requested via an OS signal
+12:48:11,571 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 63) WFLYUT0022: Unregistered web context: '/cdilab' from server 'default-server'
+12:48:11,580 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0019: Host default-host stopping
+12:48:11,585 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 73) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'cdilab.war#primary'
+12:48:11,585 INFO  [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] (ServerService Thread Pool -- 73) HHH000477: Starting delayed drop of schema as part of SessionFactory shut-down'
+12:48:11,588 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 74) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+12:48:11,589 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 73) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'cdilab.war#primary'
+12:48:11,590 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+12:48:11,592 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0019: Stopped Driver service with driver-name = h2
+12:48:11,601 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0008: Undertow HTTPS listener https suspending
+12:48:11,601 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0008: Undertow HTTP listener default suspending
+12:48:11,601 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 0.0.0.0:8443
+12:48:11,601 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 0.0.0.0:8080
+12:48:11,602 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0004: Undertow 1.4.18.Final-redhat-2 stopping
+12:48:11,615 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment cdilab.war (runtime-name: cdilab.war) in 48ms
+12:48:11,619 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0050: JBoss EAP 7.1.0.GA (WildFly Core 3.0.10.Final-redhat-1) stopped in 52ms
+Terminate batch job (Y/N)? 
+Press any key to continue . . . 
